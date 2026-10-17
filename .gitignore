@@ -1,0 +1,49 @@
+# === Личные и служебные заметки ===
+.notes/
+
+# === Системный мусор macOS ===
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# === Системный мусор Windows ===
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+
+# === Редакторы и IDE ===
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# === Зависимости и сборка (Node / React) ===
+node_modules/
+frontend/node_modules/
+build/
+frontend/build/
+dist/
+.npm/
+
+# === Временные файлы Python / FastAPI / Airflow ===
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# === Локальные данные контейнеров и БД ===
+postgres-data/
+postgres-keycloak-data/
+clickhouse-data/
+*.db
+*.sqlite
